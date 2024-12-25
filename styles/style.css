@@ -293,7 +293,7 @@ button {
     padding: 0 50px 82px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-self: end; 
+    align-self: end;
 }
 
 .footer__address {
