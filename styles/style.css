@@ -31,7 +31,7 @@
     list-style-type: none;
 }
 
-.header__link_active .header__link {
+.header__link_active {
     text-decoration: none;
    
 }
@@ -58,7 +58,7 @@
     line-height: 24.3px;
     font-style: normal;
     unicode-bidi: normal;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 }
 
 
@@ -141,13 +141,13 @@ button {
 }
 
 .bet-button {
-    width: 256px;
-    height: 51px;
+    min-width: 256px;
+    min-height: 51px;
     background-color: transparent;
     border-color: #FFFFFF;
     border-width: 1px;
     font-size: 22px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 }
 
 
@@ -317,7 +317,7 @@ button {
     text-align: center;
 }
 
-.footer__menu-link_active .footer__menu-link {
+.footer__menu-link_active {
     text-decoration: none;
 }
 
